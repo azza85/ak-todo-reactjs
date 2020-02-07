@@ -1,5 +1,5 @@
 import { todosComplete } from "./../../helpers/todosComplete";
-import { mockTodos } from "./../mockTodos";
+import { mockTodos } from "./../../__mock__/mockTodos";
 
 const todosList = Object.keys(mockTodos);
 describe("todosComplete", () => {

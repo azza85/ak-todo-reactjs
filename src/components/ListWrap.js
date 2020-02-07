@@ -23,7 +23,7 @@ export default function ListWrap({ items }) {
             <ListItemIcon>
               <Checkbox
                 edge="start"
-                checked={item.data.isChecked}
+                checked={item.data.isComplete}
                 tabIndex={-1}
                 disableRipple
                 inputProps={{ "aria-labelledby": labelId }}

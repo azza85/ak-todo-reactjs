@@ -5,7 +5,7 @@ import {
   UPDATE_TODO_STATUS
 } from "./../../providers/constants";
 
-import { mockTodos } from "./../mockTodos";
+import { mockTodos } from "./../../__mock__/mockTodos";
 
 const initialState = {
   todos: {}

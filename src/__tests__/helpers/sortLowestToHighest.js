@@ -1,5 +1,5 @@
 import { sortLowestToHighest } from "./../../helpers/sortLowestToHighest";
-import { mockTodos } from "./../mockTodos";
+import { mockTodos } from "./../../__mock__/mockTodos";
 
 const toDoList = Object.keys(mockTodos);
 describe("sortLowestToHighest", () => {
