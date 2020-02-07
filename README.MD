@@ -1,14 +1,16 @@
-#React Todo List
+# React Todo List
 
 [![Build Status](https://travis-ci.org/azza85/ak-todo-reactjs.svg?branch=master)](https://travis-ci.org/azza85/ak-todo-reactjs)
 
-##Features
-• Add and view tasks
-• Delete a task
-• Complete a task
-• Set a priority for my tasks
-• View the tasks sorted by priority and name
-• View the number of total and completed tasks
+## Features
+
+- Add and view tasks
+
+- Delete a task
+- Complete a task
+- Set a priority for my tasks
+- View the tasks sorted by priority and name
+- View the number of total and completed tasks
 
 ## Installation Instructions
 
