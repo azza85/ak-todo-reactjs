@@ -1,5 +1,5 @@
-import { sortAtoZ } from "./../helpers/sortAtoZ";
-import { mockTodos } from "./mockTodos";
+import { sortAtoZ } from "./../../helpers/sortAtoZ";
+import { mockTodos } from "./../mockTodos";
 
 const toDoList = Object.keys(mockTodos);
 describe("sortAtoZ", () => {

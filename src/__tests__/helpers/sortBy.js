@@ -1,5 +1,5 @@
-import { sortBy } from "./../helpers/sortBy";
-import { mockTodos } from "./mockTodos";
+import { sortBy } from "./../../helpers/sortBy";
+import { mockTodos } from "./../mockTodos";
 
 const toDoList = Object.keys(mockTodos);
 describe("sortBy", () => {
