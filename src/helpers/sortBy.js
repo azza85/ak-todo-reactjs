@@ -1,9 +1,9 @@
 import { sortAtoZ } from "./sortAtoZ";
-import { lowestToHighest } from "./lowestToHighest";
+import { sortLowestToHighest } from "./sortLowestToHighest";
 
 export const sortBy = (arr, obj, field = "name") => {
   if (field === "priority") {
-    return arr.sort(lowestToHighest(field, obj));
+    return arr.sort(sortLowestToHighest(field, obj));
   } else {
     return arr.sort(sortAtoZ(field, obj));
   }

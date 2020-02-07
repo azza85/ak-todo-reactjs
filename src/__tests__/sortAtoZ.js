@@ -8,6 +8,6 @@ describe("sortAtoZ", () => {
     const outputAsArray = toDoList
       .sort(sortAtoZ("name", mockTodos))
       .map(item => mockTodos[item].name);
-    expect(outputAsArray).toEqual(expect.arrayContaining(expected));
+    expect(outputAsArray).toEqual(expected);
   });
 });
